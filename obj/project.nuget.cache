@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nvriemOI7YClaH/BJwlpMW7zBznLH807+RIIc/Tuejv2eiJuAlBZSrNCQHUGV/pLktu/FCjnufmhvfEoNEcWEA==",
+  "success": true,
+  "projectFilePath": "/Users/t0r/Projects/Authentication/Authentication.csproj",
+  "expectedPackageFiles": [
+    "/Users/t0r/.nuget/packages/netcore.encrypt/2.1.1/netcore.encrypt.2.1.1.nupkg.sha512",
+    "/Users/t0r/.nuget/packages/newtonsoft.json/12.0.1/newtonsoft.json.12.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
