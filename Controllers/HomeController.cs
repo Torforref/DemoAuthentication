@@ -20,15 +20,15 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        // var key="myauth@lgc";
+        var key = "myauth@lgc";
 
-        // var username1 = "abcd1234";    
-        // var hashed1 = EncryptProvider.HMACSHA256(username1, key);
-        // var username2 = "anotherusername";    
-        // var hashed2 = EncryptProvider.HMACSHA256(username2, key);
+        var username1 = "abcd1234";
+        var hashed1 = EncryptProvider.HMACSHA256(username1, key);
+        var username2 = "anotherusername";
+        var hashed2 = EncryptProvider.HMACSHA256(username2, key);
 
-        // var test1 = EncryptProvider.HMACSHA256(username1, key);
-        // var test2 = EncryptProvider.HMACSHA256(username2, key);
+        var test1 = EncryptProvider.HMACSHA256(username1, key);
+        var test2 = EncryptProvider.HMACSHA256(username2, key);
 
         return View();
     }
